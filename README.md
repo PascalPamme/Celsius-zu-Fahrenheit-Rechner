@@ -8,5 +8,5 @@ $ npm install
 ```
 um die app zu starten tippe folgenden Befehel ein
 ```
-node app.js
+$ node app.js
 ```
