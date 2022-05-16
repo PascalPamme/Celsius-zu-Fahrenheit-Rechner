@@ -14,8 +14,7 @@ function convertStringToNumber(aNumber){
 function calc(){
 
 var celsius = readlineSync.question("enter Celsius:");
-//var input = readlineSync;
-//Convert celsius string to number
+
 if (celsius === "e"){
     console.log("Thanks for using my app");
     process.exit(1);    
@@ -35,23 +34,8 @@ else
     else {
     calc();
 }
-
-
-
 };
 calc();
 
 
-
-         /* if (fahrenheit === "e"){
-            
-            console.log("Thanks for using my app");  
-          
-          }
-          else {
-          validate();
-        
-          };*/
-   
- 
 
